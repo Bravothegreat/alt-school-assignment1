@@ -1,0 +1,107 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>DOCUMENT</title>
+    </head>
+    <body>  
+
+      <header>
+        <div>
+          <img src="./image/cropped-AltSchool-Logo-1.png" alt="">
+        </div>
+          <!-- navigation bar-->
+        <nav>  
+      <ul>
+        <li><a href="./index2.html">HOME</a></li>
+        <li>
+          <a href="./index.html">FORM</a>
+        </li>
+      </ul>
+        </nav>
+      </header>
+
+      <!--aplication form-->
+      <main>
+        <article>
+          APPLICATION FORM
+        <p>Fill in your details</p>
+  <section>
+          
+      <form action="POST">
+        <!--input for first name-->
+    <label for="first name">FIRST NAME  <span>&#42</span></label><br>
+    <input type="text" name="fname" id="fname" placeholder="Enter first name"> <br><br>
+
+      <!--input for last name-->
+      <label for="lname">LAST NAME<span>&#42</span></label></label><br>
+      <input type="text" name="lname" id="lname" placeholder="Enter your last name"><br>
+
+      <!--input for email-->
+      <label for="email">EMAIL<span>&#42</span></label> </label><br><br>
+      <input type="email" name="email" id="email" placeholder="Enter your Email"><br><br>
+
+      <!--input for phone number-->
+      <label for="phone number">PHONR NUMBER<span>&#42</span></label><br>
+      <input type="tel" name="phone number" id="phone number" pattern="[0-9] {3}-[0-9]{2}-[0-9]{3}" required placeholder="123-45-678"><br><br>
+
+      <label for="date">DATE<span>&#42</span></label><br>
+      <input type="date" name="date" id="date"><br><br>
+
+      <!--input for gender-->
+      <label for="gender">GENDER<span>&#42</span></label></label><br>
+      <select name="gender" id="gender">
+      <option disabled="disable" selected="selected">select your gender</option>
+      <option value="male">Male</option>
+          <option value="female">Female</option>
+        </optgroup>
+      </select><br><br>
+
+      <!--section for select country-->
+      <label for="country">COUNTRY<span>&#42</span></label><br>
+      <select aria-label="country name"
+       name="country" 
+       id="country">
+        <option disabled="disable" selected="selected">select your country</option>
+      <option value="nigeria">Nigeria</option>
+      <option value="Kenya">Kenya</option>
+      <option value="Ghana">Ghana</option>
+      </select><br><br>
+
+      <!--section for selecting school-->
+      <label for="school">CHOOSE SCHOOL<span>&#42</span></label><br>
+      <select name="school" id="school">
+        <option disabled="disable" selected="selected">select school</option>
+        <option value="school of data">school of Data</option>
+        <option value="school of engineering">School of Enginnering</option>
+        <option value="">School of product</option>
+      </select><br><br>
+
+      <!--employment status-->
+      <label for="Employment status">
+      EMPLOYMENT STATUS<span>&#42</span></label><br>
+      <select name="SES" id="SES">
+      <option disabled="disable" selected="selected">select employment status</option>
+      <option value="employed">employed</option>
+      <option value="unemployed">unemployed</option>
+      <option value="self-employed">
+      self-employed
+      </option>
+      </select>
+      </form>
+
+  <section>
+    <!--terms and condition-->
+    <p>
+      By clicking continue, I agree to <a href="#">Term of use</a> and acknowledge that I <br>
+      have read the <a href="#">Privacy Policy</a>
+    </p>
+    <button>Proceed</button>
+    <p>Alredy have an account? <a href="#">sign In</a></p>
+  </section>
+  </section>
+    </article>
+      </main>
+    </body>
+    </html>
